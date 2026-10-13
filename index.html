@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f3ed">
+    <meta
+      name="description"
+      content="L'Atelier Nébuleuse imagine et développe des identités, des sites et des expériences numériques avec intention."
+    >
+    <title>Atelier Nébuleuse — Le numérique, avec intention</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header" id="accueil">
+      <nav class="navigation container" aria-label="Navigation principale">
+        <a class="brand" href="#accueil" aria-label="Atelier Nébuleuse, accueil">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 42 42" fill="none">
+              <path d="M21 3.5c2.8 9.5 8 14.7 17.5 17.5C29 23.8 23.8 29 21 38.5 18.2 29 13 23.8 3.5 21 13 18.2 18.2 13 21 3.5Z" fill="currentColor"/>
+              <circle cx="21" cy="21" r="4.2" fill="#F6F3ED"/>
+            </svg>
+          </span>
+          <span class="brand-name">atelier <strong>nébuleuse</strong></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="menu-principal">
+          <a href="#studio">Le studio</a>
+          <a href="#projets">Nos projets</a>
+          <a href="#avis">Les mots doux</a>
+          <a class="nav-contact" href="#contact">Parlons de votre idée <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenu">
+      <section class="hero section-pad">
+        <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Studio indépendant · Paris & partout</p>
+            <h1>Le numérique,<br>avec <em>intention.</em></h1>
+            <p class="hero-intro">
+              Nous donnons vie aux idées qui méritent d’exister. Des identités singulières
+              et des expériences digitales pensées pour rapprocher les gens.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#projets">Découvrir nos projets <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#studio">Faire connaissance <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-note">
+              <span class="note-avatars" aria-hidden="true"><i>A</i><i>M</i><i>+</i></span>
+              <span>Un petit studio, de grandes idées.</span>
+            </div>
+          </div>
+          <div class="hero-art" aria-label="Composition abstraite et organique aux couleurs naturelles">
+            <div class="hero-art-backdrop"></div>
+            <div class="hero-image">
+              <img
+                src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1100&q=85"
+                alt="Intérieur lumineux aux matières naturelles et aux plantes"
+                fetchpriority="high"
+              >
+            </div>
+            <div class="hero-stamp">
+              <svg class="stamp-text" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="stamp-circle" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0"/></defs>
+                <text><textPath href="#stamp-circle">CURIOSITÉ · CRÉATIVITÉ · SINCÉRITÉ · </textPath></text>
+              </svg>
+              <span aria-hidden="true">✳</span>
+            </div>
+            <p class="art-caption">Des idées qui<br>prennent racine.</p>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#studio"><span></span> Défiler pour découvrir</a>
+      </section>
+
+      <section class="intro section-pad" id="studio">
+        <div class="container intro-grid">
+          <p class="eyebrow intro-label"><span class="eyebrow-line"></span> Bonjour, nous sommes Nébuleuse</p>
+          <div class="intro-content">
+            <h2>On croit aux idées qui ont <em>une âme.</em></h2>
+            <div class="intro-bottom">
+              <p>
+                À la croisée du design et de la technologie, nous accompagnons celles et ceux
+                qui veulent faire les choses autrement. Avec écoute, exigence et juste ce qu’il
+                faut d’audace.
+              </p>
+              <a class="circle-link" href="#contact" aria-label="En savoir plus sur le studio">
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+          <div class="intro-aside">
+            <span class="asterisk" aria-hidden="true">✳</span>
+            <p>Un studio à taille humaine, où chaque projet compte vraiment.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-pad" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span> Ce que l’on cultive</p>
+              <h2 id="services-title">Les bonnes idées<br>font <em>du chemin.</em></h2>
+            </div>
+            <p class="section-heading-note">Chaque projet commence par une conversation<br>et se construit avec vous, pas à pas.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <span class="service-number">01</span>
+              <div class="service-icon" aria-hidden="true">✳</div>
+              <h3>Identité & direction artistique</h3>
+              <p>Une personnalité claire, sensible et durable, qui vous ressemble jusque dans les détails.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="service-card">
+              <span class="service-number">02</span>
+              <div class="service-icon service-icon-leaf" aria-hidden="true">❋</div>
+              <h3>Sites web & expériences</h3>
+              <p>Des sites beaux à parcourir, faciles à utiliser et conçus pour grandir avec vous.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="service-card">
+              <span class="service-number">03</span>
+              <div class="service-icon service-icon-sun" aria-hidden="true">☼</div>
+              <h3>Accompagnement créatif</h3>
+              <p>Le bon regard au bon moment pour clarifier, cadrer et faire avancer vos idées.</p>
+              <span class="service-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section-pad" id="projets">
+        <div class="container">
+          <div class="section-heading portfolio-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-line"></span> Nos projets préférés</p>
+              <h2>Du beau, du juste,<br>du <em>fait ensemble.</em></h2>
+            </div>
+            <p class="section-heading-note">Quelques histoires récentes, imaginées<br>et façonnées avec celles et ceux qui les portent.</p>
+          </div>
+
+          <div class="filters" role="group" aria-label="Filtrer les projets">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Tout voir <span>04</span></button>
+            <button class="filter-button" type="button" data-filter="design" aria-pressed="false">Design</button>
+            <button class="filter-button" type="button" data-filter="developpement" aria-pressed="false">Développement</button>
+            <button class="filter-button" type="button" data-filter="branding" aria-pressed="false">Branding</button>
+          </div>
+
+          <div class="project-grid" aria-live="polite">
+            <article class="project-card project-large" data-category="design branding">
+              <a class="project-link" href="#contact" aria-label="Découvrir Maison Sève, identité et site vitrine">
+                <div class="project-image project-image-seve">
+                  <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Salon chaleureux aux lignes épurées, projet Maison Sève" loading="lazy">
+                  <span class="project-open" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-meta">
+                  <div><h3>Maison Sève</h3><p>Identité & site vitrine</p></div>
+                  <span class="project-year">2025</span>
+                </div>
+              </a>
+            </article>
+            <article class="project-card project-offset" data-category="developpement design">
+              <a class="project-link" href="#contact" aria-label="Découvrir Les Heures Bleues, expérience digitale">
+                <div class="project-image project-image-heures">
+                  <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=85" alt="Architecture contemporaine sculptée par la lumière, projet Les Heures Bleues" loading="lazy">
+                  <span class="project-open" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-meta">
+                  <div><h3>Les Heures Bleues</h3><p>Expérience digitale</p></div>
+                  <span class="project-year">2025</span>
+                </div>
+              </a>
+            </article>
+            <article class="project-card" data-category="branding">
+              <a class="project-link" href="#contact" aria-label="Découvrir Floraison, identité de marque">
+                <div class="project-image project-image-floraison">
+                  <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=85" alt="Bouquet de fleurs aux teintes douces, projet Floraison" loading="lazy">
+                  <span class="project-open" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-meta">
+                  <div><h3>Floraison</h3><p>Branding & packaging</p></div>
+                  <span class="project-year">2024</span>
+                </div>
+              </a>
+            </article>
+            <article class="project-card project-offset-small" data-category="developpement">
+              <a class="project-link" href="#contact" aria-label="Découvrir Café Auguste, site e-commerce">
+                <div class="project-image project-image-auguste">
+                  <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85" alt="Comptoir de café accueillant baigné de lumière, projet Café Auguste" loading="lazy">
+                  <span class="project-open" aria-hidden="true">↗</span>
+                </div>
+                <div class="project-meta">
+                  <div><h3>Café Auguste</h3><p>Site e-commerce</p></div>
+                  <span class="project-year">2024</span>
+                </div>
+              </a>
+            </article>
+          </div>
+          <p class="portfolio-end">Et si la prochaine histoire était la vôtre ? <a href="#contact">On en parle <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </section>
+
+      <section class="quote-section section-pad" id="avis">
+        <div class="container quote-container">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Ils en parlent mieux que nous</p>
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <blockquote>
+            Nébuleuse a su comprendre ce qu’on n’arrivait pas encore à formuler. Le résultat,
+            c’est une marque qui nous ressemble profondément — et dont on est fiers chaque jour.
+          </blockquote>
+          <div class="quote-author">
+            <span class="author-avatar" aria-hidden="true">É</span>
+            <div><strong>Élodie Martin</strong><span>Fondatrice, Maison Sève</span></div>
+          </div>
+          <div class="quote-decoration" aria-hidden="true">✳</div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> À votre tour</p>
+            <h2>Une idée en tête ?<br><em>On vous écoute.</em></h2>
+            <p>Un projet, une envie, une question ? La première étape, c’est juste de se dire bonjour.</p>
+            <a class="contact-email" href="mailto:bonjour@ateliernebuleuse.fr">bonjour@ateliernebuleuse.fr <span aria-hidden="true">↗</span></a>
+            <div class="contact-note"><span class="contact-note-dot"></span> Généralement, on répond sous 48 h.</div>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Votre nom</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Camille Dupont" aria-describedby="name-error" required minlength="2">
+                <span class="field-error" id="name-error"></span>
+              </div>
+              <div class="form-field">
+                <label for="email">Votre e-mail</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="camille@exemple.fr" aria-describedby="email-error" required>
+                <span class="field-error" id="email-error"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Quelques mots sur votre projet</label>
+              <textarea id="message" name="message" rows="4" placeholder="On aimerait beaucoup en savoir plus…" aria-describedby="message-error" required minlength="10"></textarea>
+              <span class="field-error" id="message-error"></span>
+            </div>
+            <button class="button button-dark submit-button" type="submit">Préparer mon message <span aria-hidden="true">↗</span></button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="form-privacy">En envoyant ce formulaire, votre application e-mail s’ouvrira pour vous permettre de nous écrire.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="mentions">
+      <div class="container footer-main">
+        <a class="brand footer-brand" href="#accueil" aria-label="Atelier Nébuleuse, retour en haut">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 42 42" fill="none">
+              <path d="M21 3.5c2.8 9.5 8 14.7 17.5 17.5C29 23.8 23.8 29 21 38.5 18.2 29 13 23.8 3.5 21 13 18.2 18.2 13 21 3.5Z" fill="currentColor"/>
+              <circle cx="21" cy="21" r="4.2" fill="#292B25"/>
+            </svg>
+          </span>
+          <span class="brand-name">atelier <strong>nébuleuse</strong></span>
+        </a>
+        <p>Du sens, du beau,<br>et un peu de magie.</p>
+        <div class="footer-socials" aria-label="Réseaux sociaux">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="current-year">2025</span> Atelier Nébuleuse. Fait avec intention.</span>
+        <a href="mailto:bonjour@ateliernebuleuse.fr?subject=Demande%20de%20mentions%20l%C3%A9gales">Demander les mentions légales</a>
+        <a href="#accueil" class="back-top">Retour en haut ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
